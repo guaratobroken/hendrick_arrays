@@ -81,17 +81,23 @@ function arrayfive() {
   alert(`Numeros Negativos: ${negativos}`);
 
 }
+https://github.com/pedro-chandoha/catapimbas-Hendrick
 function arraysix() {
   let arr = [];
   let n = parseInt(prompt("Quantos valores serão digitados ? "));
   let i = 0;
+  let mult = parseInt(prompt("Por quanto será multiplicado os valores ?"));
+  
   while (i < n) {
     let value = parseFloat(prompt(`Insira o valor ${i + 1}: `));
     arr.push(value);
-    i++; 
-  for (let i = 0; i < arr.length; i++) {
-    arr.push(arr[i] * num);
-      }
+    i++;
   }
-  alert(arr);
+  
+  let multipliedArr = []; // Create a new array to store multiplied values
+  for (let i = 0; i < arr.length; i++) {
+    multipliedArr.push(arr[i] * mult);
+  }
+  
+  alert(`Os valores multiplicados são: ${multipliedArr}`);
 }
