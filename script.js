@@ -81,7 +81,6 @@ function arrayfive() {
   alert(`Numeros Negativos: ${negativos}`);
 
 }
-https://github.com/pedro-chandoha/catapimbas-Hendrick
 function arraysix() {
   let arr = [];
   let n = parseInt(prompt("Quantos valores serão digitados ? "));
@@ -94,7 +93,7 @@ function arraysix() {
     i++;
   }
   
-  let multipliedArr = []; // Create a new array to store multiplied values
+  let multipliedArr = []; 
   for (let i = 0; i < arr.length; i++) {
     multipliedArr.push(arr[i] * mult);
   }
